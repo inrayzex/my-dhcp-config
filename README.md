@@ -6,7 +6,7 @@ A complete DHCP server configuration with automated deployment script. Designed 
 ## Quick Start
 Clone repository
 
-git clone https://github.com/imrayzex/my-dhcp-config.git
+git clone https://github.com/inrayzex/my-dhcp-config.git
 
 cd my-dhcp-config
 
