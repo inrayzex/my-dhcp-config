@@ -1,5 +1,3 @@
-markdown
-
 # DHCP Server Configuration for Rocky Linux
 
 
@@ -28,19 +26,19 @@ sudo ./setup.sh
 
 Network Configuration
 
-Parameter	Value
+ParameterValue
 
-Server OS	Rocky Linux 9
+Server OSRocky Linux 9
 
-Server IP	192.168.0.51
+Server IP192.168.0.51
 
-Subnet	192.168.0.0/24
+Subnet192.168.0.0/24
 
-DHCP Range	192.168.0.100 - 192.168.0.150
+DHCP Range192.168.0.100 - 192.168.0.150
 
-Gateway	192.168.0.1
+Gateway192.168.0.1
 
-DNS Servers	8.8.8.8, 8.8.4.4
+DNS Servers8.8.8.8, 8.8.4.4
 
 Project Files
 
@@ -96,8 +94,7 @@ sudo systemctl restart dhcpd
 
 # Check status
 
-sudo systemctl stat
-
+sudo systemctl status dhcpd
 
 Verification
 
@@ -108,6 +105,8 @@ bash
 systemctl status dhcpd
 
 
+
 # View assigned addresses
 
 cat /var/lib/dhcpd/dhcpd.leases
+
