@@ -14,7 +14,6 @@ Deploy with automated script
 
 sudo ./setup.sh
 
-text
 
 ## Network Configuration
 
@@ -54,7 +53,6 @@ Check status
 
 sudo systemctl status dhcpd
 
-text
 
 ## Verification
 Check DHCP status
