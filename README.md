@@ -5,10 +5,13 @@ A complete DHCP server configuration with automated deployment script. Designed 
 
 ## Quick Start
 Clone repository
+
 git clone https://github.com/imrayzex/my-dhcp-config.git
+
 cd my-dhcp-config
 
 Deploy with automated script
+
 sudo ./setup.sh
 
 text
@@ -44,16 +47,20 @@ Copy configuration
 sudo cp dhcpd.conf /etc/dhcp/dhcpd.conf
 
 Restart service
+
 sudo systemctl restart dhcpd
 
 Check status
+
 sudo systemctl status dhcpd
 
 text
 
 ## Verification
 Check DHCP status
+
 systemctl status dhcpd
 
 View assigned addresses
+
 cat /var/lib/dhcpd/dhcpd.leases
