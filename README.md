@@ -40,6 +40,7 @@ text
 
 ## Manual Installation (Alternative)
 Copy configuration
+
 sudo cp dhcpd.conf /etc/dhcp/dhcpd.conf
 
 Restart service
